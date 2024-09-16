@@ -106,6 +106,8 @@ body{
     height: 5vh;
     font-size: 16px;
     padding-left: 1rem;
+    border-radius: 10px;
+    border:1px solid #1E2A5E ;
 }
 
 .btn-post{

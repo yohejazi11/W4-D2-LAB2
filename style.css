@@ -10,7 +10,7 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 80vw;
+        width: 50vw;
         gap: 1rem;
         background-color:#E1D7B7 ;
         padding: 2rem;
@@ -92,7 +92,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80vw;
+    width: 50vw;
     gap: 1rem;
     background-color:#E1D7B7 ;
     padding: 2rem;

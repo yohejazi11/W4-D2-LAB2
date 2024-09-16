@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>yohejazi Api</title>
+</head>
+<body>
+    <form id="postActionBox" class="post-action-box">
+        <h2 style="text-align: center; color: #1E2A5E;border-bottom: 2px solid #7C93C3 ;">post some photo</h2>
+        <input id="imageTitle" required placeholder="enter image title" class="image-title" type="text">
+        <input id="imageUrl" required placeholder="enter image url" class="image-url" type="url">
+        <button id="btnPost" type="submit" class="btn-post">POST</button>
+    </form>
+
+    <h1 style="padding-left: 2rem; color:#E1D7B7 ;">fetch posts</h1>
+    <div id="postsContainer" class="posts-container">
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
